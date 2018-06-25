@@ -1,5 +1,6 @@
 var buttons = [];
 
+
 function createButtons() {
     
     $("#holder").empty();
@@ -27,6 +28,12 @@ function displayThing () {
     })
     .then(function(response){
         console.log(response);
+        
+        for( i=0; i<response.data.length; i++) {
+            
+            
+
+        }
     })
 };
 
