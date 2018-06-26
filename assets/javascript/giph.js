@@ -20,7 +20,7 @@ function displayThing() {
 
     var unit = $(this).attr("data-name")
 
-    var queryUrl = "api.giphy.com/v1/gifs/search?q=" + unit + "&api_key=7SufAUWSCErlvAp64NoituzCdcVwjAFJ&limit=10";
+    var queryUrl = "https://api.giphy.com/v1/gifs/search?q=" + unit + "&api_key=7SufAUWSCErlvAp64NoituzCdcVwjAFJ&limit=10";
 
     $.ajax({
         url: queryUrl,
