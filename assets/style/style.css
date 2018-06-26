@@ -1,0 +1,16 @@
+body{
+    background-color: silver;
+}
+#query{
+    position: relative;
+    margin-left:70%;
+}
+
+button {
+    height: 60px;
+    width: 100px;
+    background-color:black;
+    color: white;
+    border: cyan;
+    margin-left: 1%;
+}
